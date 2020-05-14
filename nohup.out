@@ -1,0 +1,50 @@
+
+> index.js@1.0.0 start /Users/espaciotiago/Desktop/WAKE ME UP/server
+> node start.js
+
+Initializing firebase server...
+play... 2020-05-04T02:45:33.540Z
+
+> index.js@1.0.0 start /Users/espaciotiago/Desktop/WAKE ME UP/server
+> node start.js
+
+Initializing firebase server...
+play... 2020-05-04T02:47:26.377Z
+play... 2020-05-04T02:48:00.672Z
+stop... 2020-05-04T02:48:25.057Z
+play... 2020-05-04T02:50:00.556Z
+stop... 2020-05-04T02:50:21.310Z
+play... 2020-05-04T02:52:03.270Z
+stop... 2020-05-04T02:52:22.006Z
+
+> index.js@1.0.0 start /Users/espaciotiago/Desktop/WAKE ME UP/server
+> node start.js
+
+Initializing firebase server...
+stop... 2020-05-04T02:53:38.997Z
+
+> index.js@1.0.0 start /Users/espaciotiago/Desktop/WAKE ME UP/server
+> node start.js
+
+Initializing firebase server...
+stop... 2020-05-04T02:54:44.960Z
+
+> index.js@1.0.0 start /Users/espaciotiago/Desktop/WAKE ME UP/server
+> node start.js
+
+Initializing firebase server...
+stop... 2020-05-04T02:55:06.167Z
+(node:95520) UnhandledPromiseRejectionWarning: Error: 13 INTERNAL: Received RST_STREAM with code 2
+    at Object.callErrorFromStatus (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/call.ts:81:24)
+    at Object.onReceiveStatus (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/client.ts:324:36)
+    at Object.onReceiveStatus (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/client-interceptors.ts:439:34)
+    at Object.onReceiveStatus (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/client-interceptors.ts:402:48)
+    at Http2CallStream.outputStatus (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/call-stream.ts:228:22)
+    at Http2CallStream.maybeOutputStatus (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/call-stream.ts:278:14)
+    at Http2CallStream.endCall (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/call-stream.ts:262:12)
+    at ClientHttp2Stream.<anonymous> (/Users/espaciotiago/Desktop/WAKE ME UP/server/node_modules/@grpc/grpc-js/src/call-stream.ts:532:14)
+    at ClientHttp2Stream.emit (events.js:315:20)
+    at emitErrorCloseNT (internal/streams/destroy.js:76:8)
+(node:95520) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:95520) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+play... 2020-05-04T11:10:00.714Z
