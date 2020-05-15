@@ -36,7 +36,7 @@ class FirebasManager {
         this.db.collection("devices").doc("JlAtXf52v7WpxwCMSAfY").set({
             status: "play",
             lastModification: new Date()
-        })
+        }, {merge: true})
     }
 }
 
