@@ -24,7 +24,7 @@ firebase.createListener(function (doc) {
             alarm.playTheMusic();
         } else {
             console.log("stop...", new Date());
-            firebase.turnOff();
+            //firebase.turnOff();
             alarm.stopTheMusic();
         }
         //Check for the hour to be scheduled
