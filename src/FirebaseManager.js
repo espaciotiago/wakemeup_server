@@ -16,6 +16,7 @@ class FirebasManager {
     turnOn(){
         console.log("Turning on the device...");
         var ref = this.realtimeDb.ref("casa14/node1");
+        ref.child('dispatch_cups').set("YES");
         ref.child('value1').set("ON");
     }
 
